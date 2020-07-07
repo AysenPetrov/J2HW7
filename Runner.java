@@ -1,10 +1,10 @@
 package J2HW7;
 
-import hw7.client.Client;
-import hw7.server.MServer;
+import J2HW7.client.Client;
+import J2HW7.server.MServer;
 import javafx.application.Application;
 
-public class HomeWork7 {
+public class Runner {
     public static void main(String[] args) {
         new Thread(() -> new MServer()).start();
         try {
